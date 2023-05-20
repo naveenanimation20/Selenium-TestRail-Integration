@@ -1,6 +1,7 @@
 package base;
 
 import com.manager.TestRailManager;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 
@@ -20,6 +21,18 @@ public class BaseTest {
     public void setup(String url, String browserName) {
         System.out.println("launching browser: " + browserName);
         if (browserName.equalsIgnoreCase("chrome")) {
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--window-size=1920,1080");
+            options.addArguments("--no-sandbox");
+            options.addArguments("--headless");
+            options.addArguments("--disable-gpu");
+            options.addArguments("--disable-crash-reporter");
+            options.addArguments("--disable-extensions");
+            options.addArguments("--disable-in-process-stack-traces");
+            options.addArguments("--disable-logging");
+            options.addArguments("--disable-dev-shm-usage");
+            options.addArguments("--log-level=3");
+            options.addArguments("--output=/dev/null");
             driver = new ChromeDriver();
         } else if (browserName.equalsIgnoreCase("firefox")) {
             driver = new FirefoxDriver();
