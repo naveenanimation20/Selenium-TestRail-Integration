@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+apply plugin:'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.testng', name: 'testng', version: '7.0.0'
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.9.1'
+    implementation group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
+}
+
+test { //this is the gradle task to be executed
+    useTestNG() { //Tells Gradle to use TestNG
+        outputDirectory = file("test-output")
+        useDefaultListeners = true // Tells TestNG to execute its default reporting structure
+        suites 'src/test/resources/testrunner/testng.xml' //location of our suite.xml
+    }
+}
