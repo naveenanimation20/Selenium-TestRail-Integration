@@ -16,12 +16,14 @@ public class AmazonTest extends BaseTest {
 
     @Test(priority = 2)
     public void searchExistTest() {
+        testCaseId = "3";
         boolean flag = driver.findElement(By.id("twotabsearchtextbox")).isDisplayed();
         Assert.assertTrue(flag);
     }
 
     @Test(priority = 3)
     public void isHelpExistTest() {
+        testCaseId = "4";
         boolean flag = driver.findElement(By.linkText("Help")).isDisplayed();
         Assert.assertTrue(flag);
     }

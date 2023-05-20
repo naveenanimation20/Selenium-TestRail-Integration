@@ -16,7 +16,7 @@ public class BaseTest {
     protected String testCaseId;
 
     @Parameters({"url", "browser"})
-    @BeforeMethod
+    @BeforeTest
     public void setup(String url, String browserName) {
         System.out.println("launching browser: " + browserName);
         if (browserName.equalsIgnoreCase("chrome")) {
@@ -32,8 +32,14 @@ public class BaseTest {
         driver.get(url);
     }
 
+    @AfterTest
+    public void tearDown() {
+        driver.quit();
+    }
+
+
     @AfterMethod
-    public void tearDown(ITestResult result) {
+    public void addResultsToTestRail(ITestResult result) {
 
         if (result.getStatus() == ITestResult.SUCCESS) {
             TestRailManager.addResultForTestCase(testCaseId, TestRailManager.TEST_CASE_PASS_STATUS, "");
@@ -42,7 +48,6 @@ public class BaseTest {
 
         }
 
-        driver.quit();
 
     }
 

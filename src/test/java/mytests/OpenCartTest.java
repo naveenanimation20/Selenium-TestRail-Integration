@@ -12,7 +12,7 @@ public class OpenCartTest extends BaseTest {
          testCaseId = "1";
         System.out.println("open cart - logo test");
         boolean flag = driver.findElement(By.cssSelector("img[title='naveenopencart']")).isDisplayed();
-        Assert.assertEquals(flag, false);
+        Assert.assertEquals(flag, true);
     }
 
     @Test(priority = 2)

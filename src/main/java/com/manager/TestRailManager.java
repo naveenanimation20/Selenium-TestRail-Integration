@@ -20,7 +20,7 @@ public class TestRailManager {
         APIClient client = new APIClient(TEST_RAIL_ENGINE_URL);
         client.setUser(TEST_RAIL_USERNAME);
         client.setPassword(TEST_RAIL_PASSWORD);
-        Map data = new HashMap();
+        Map<String, Object> data = new HashMap<String, Object>();
         data.put("status_id", status);
         data.put("comment", "this test is executed - status is updated via selenium test automation " + error);
         try {
@@ -28,8 +28,5 @@ public class TestRailManager {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
-
-
 }

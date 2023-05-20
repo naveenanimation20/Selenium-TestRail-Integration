@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-19T17:33:41 IST" name="TestNG Regression Suite" finished-at="2023-05-19T17:33:48 IST" duration-ms="7044">
+  <suite started-at="2023-05-20T15:58:07 IST" name="TestNG Regression Suite" finished-at="2023-05-20T15:58:19 IST" duration-ms="11976">
     <groups>
     </groups>
-    <test started-at="2023-05-19T17:33:41 IST" name="Amazon Test" finished-at="2023-05-19T17:33:48 IST" duration-ms="7044">
+    <test started-at="2023-05-20T15:58:07 IST" name="Amazon Test" finished-at="2023-05-20T15:58:19 IST" duration-ms="11976">
       <class name="mytests.AmazonTest">
-        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:mytests.AmazonTest@7cbd9d24]" started-at="2023-05-19T17:33:41 IST" name="setup" finished-at="2023-05-19T17:33:47 IST" duration-ms="6293" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:mytests.AmazonTest@6bf08014]" started-at="2023-05-20T15:58:07 IST" name="setup" finished-at="2023-05-20T15:58:15 IST" duration-ms="8154" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,19 +23,52 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="titleTest()[pri:1, instance:mytests.AmazonTest@7cbd9d24]" started-at="2023-05-19T17:33:47 IST" name="titleTest" finished-at="2023-05-19T17:33:47 IST" duration-ms="22" status="PASS">
+        <test-method signature="titleTest()[pri:1, instance:mytests.AmazonTest@6bf08014]" started-at="2023-05-20T15:58:15 IST" name="titleTest" finished-at="2023-05-20T15:58:16 IST" duration-ms="63" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleTest -->
-        <test-method signature="searchExistTest()[pri:2, instance:mytests.AmazonTest@7cbd9d24]" started-at="2023-05-19T17:33:47 IST" name="searchExistTest" finished-at="2023-05-19T17:33:47 IST" duration-ms="106" status="PASS">
+        <test-method is-config="true" signature="addResultsToTestRail(org.testng.ITestResult)[pri:0, instance:mytests.AmazonTest@6bf08014]" started-at="2023-05-20T15:58:16 IST" name="addResultsToTestRail" finished-at="2023-05-20T15:58:18 IST" duration-ms="2001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=titleTest status=SUCCESS method=AmazonTest.titleTest()[pri:1, instance:mytests.AmazonTest@6bf08014] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addResultsToTestRail -->
+        <test-method signature="searchExistTest()[pri:2, instance:mytests.AmazonTest@6bf08014]" started-at="2023-05-20T15:58:18 IST" name="searchExistTest" finished-at="2023-05-20T15:58:18 IST" duration-ms="30" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchExistTest -->
-        <test-method signature="isHelpExistTest()[pri:3, instance:mytests.AmazonTest@7cbd9d24]" started-at="2023-05-19T17:33:47 IST" name="isHelpExistTest" finished-at="2023-05-19T17:33:48 IST" duration-ms="462" status="PASS">
+        <test-method is-config="true" signature="addResultsToTestRail(org.testng.ITestResult)[pri:0, instance:mytests.AmazonTest@6bf08014]" started-at="2023-05-20T15:58:18 IST" name="addResultsToTestRail" finished-at="2023-05-20T15:58:18 IST" duration-ms="573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchExistTest status=SUCCESS method=AmazonTest.searchExistTest()[pri:2, instance:mytests.AmazonTest@6bf08014] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addResultsToTestRail -->
+        <test-method signature="isHelpExistTest()[pri:3, instance:mytests.AmazonTest@6bf08014]" started-at="2023-05-20T15:58:18 IST" name="isHelpExistTest" finished-at="2023-05-20T15:58:18 IST" duration-ms="340" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isHelpExistTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mytests.AmazonTest@7cbd9d24]" started-at="2023-05-19T17:33:48 IST" name="tearDown" finished-at="2023-05-19T17:33:48 IST" duration-ms="156" status="PASS">
+        <test-method is-config="true" signature="addResultsToTestRail(org.testng.ITestResult)[pri:0, instance:mytests.AmazonTest@6bf08014]" started-at="2023-05-20T15:58:18 IST" name="addResultsToTestRail" finished-at="2023-05-20T15:58:19 IST" duration-ms="605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isHelpExistTest status=SUCCESS method=AmazonTest.isHelpExistTest()[pri:3, instance:mytests.AmazonTest@6bf08014] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addResultsToTestRail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mytests.AmazonTest@6bf08014]" started-at="2023-05-20T15:58:19 IST" name="tearDown" finished-at="2023-05-20T15:58:19 IST" duration-ms="203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
