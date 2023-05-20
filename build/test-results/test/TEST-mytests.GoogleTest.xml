@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mytests.GoogleTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-05-20T11:07:36" hostname="naveenautomationlabss-MacBook-Pro.local" time="1.772">
+  <properties/>
+  <testcase name="titleTest" classname="mytests.GoogleTest" time="0.008"/>
+  <testcase name="isSearchExist" classname="mytests.GoogleTest" time="0.031"/>
+  <system-out><![CDATA[page title:Google
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
