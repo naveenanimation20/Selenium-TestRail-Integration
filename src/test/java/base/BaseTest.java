@@ -33,7 +33,9 @@ public class BaseTest {
             options.addArguments("--disable-dev-shm-usage");
             options.addArguments("--log-level=3");
             options.addArguments("--output=/dev/null");
-            driver = new ChromeDriver();
+            options.addArguments("ignore-certificate-errors");
+
+            driver = new ChromeDriver(options);
         } else if (browserName.equalsIgnoreCase("firefox")) {
             driver = new FirefoxDriver();
         } else if (browserName.equalsIgnoreCase("safari")) {

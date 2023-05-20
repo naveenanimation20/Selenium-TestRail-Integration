@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="19594a0b-bd3c-4542-908e-1358a7b44fc6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MyTest" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Q0ecYSxcn9zmt5CZmKkKYPQrGe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/naveenautomationlabs/Documents/MyTest/src/test/resources/testrunner/testng.xml">
+    <configuration name="AmazonTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;mytests.AmazonTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MyTest [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="OpenCartTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;mytests.OpenCartTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="OpenCartTest.forgotPwdLinkExistTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;mytests.OpenCartTest.forgotPwdLinkExistTest[*0*]&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="/Users/naveenautomationlabs/Documents/MyTest/src/test/resources/testrunner/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyTest.test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testrunner/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/naveenautomationlabs/Documents/MyTest/src/test/resources/testrunner/testng.xml" />
+        <item itemvalue="Gradle.MyTest [test]" />
+        <item itemvalue="Gradle.OpenCartTest.forgotPwdLinkExistTest" />
+        <item itemvalue="Gradle.OpenCartTest" />
+        <item itemvalue="Gradle.AmazonTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19594a0b-bd3c-4542-908e-1358a7b44fc6" name="Default Changelist" comment="" />
+      <created>1684495008832</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684495008832</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1748" height="268" key="GridCell.Tab.0.bottom" timestamp="1684578416179">
+      <screen x="0" y="25" width="1792" height="1037" />
+    </state>
+    <state width="1748" height="268" key="GridCell.Tab.0.bottom/0.25.1792.1029@0.25.1792.1029" timestamp="1684498230734" />
+    <state width="1748" height="268" key="GridCell.Tab.0.bottom/0.25.1792.1030@0.25.1792.1030" timestamp="1684499642495" />
+    <state width="1748" height="268" key="GridCell.Tab.0.bottom/0.25.1792.1034@0.25.1792.1034" timestamp="1684578150292" />
+    <state width="1748" height="268" key="GridCell.Tab.0.bottom/0.25.1792.1035@0.25.1792.1035" timestamp="1684578321974" />
+    <state width="1748" height="268" key="GridCell.Tab.0.bottom/0.25.1792.1037@0.25.1792.1037" timestamp="1684578416179" />
+    <state width="1748" height="268" key="GridCell.Tab.0.center" timestamp="1684578416179">
+      <screen x="0" y="25" width="1792" height="1037" />
+    </state>
+    <state width="1748" height="268" key="GridCell.Tab.0.center/0.25.1792.1029@0.25.1792.1029" timestamp="1684498230733" />
+    <state width="1748" height="268" key="GridCell.Tab.0.center/0.25.1792.1030@0.25.1792.1030" timestamp="1684499642494" />
+    <state width="1748" height="268" key="GridCell.Tab.0.center/0.25.1792.1034@0.25.1792.1034" timestamp="1684578150286" />
+    <state width="1748" height="268" key="GridCell.Tab.0.center/0.25.1792.1035@0.25.1792.1035" timestamp="1684578321973" />
+    <state width="1748" height="268" key="GridCell.Tab.0.center/0.25.1792.1037@0.25.1792.1037" timestamp="1684578416179" />
+    <state width="1748" height="268" key="GridCell.Tab.0.left" timestamp="1684578416178">
+      <screen x="0" y="25" width="1792" height="1037" />
+    </state>
+    <state width="1748" height="268" key="GridCell.Tab.0.left/0.25.1792.1029@0.25.1792.1029" timestamp="1684498230732" />
+    <state width="1748" height="268" key="GridCell.Tab.0.left/0.25.1792.1030@0.25.1792.1030" timestamp="1684499642494" />
+    <state width="1748" height="268" key="GridCell.Tab.0.left/0.25.1792.1034@0.25.1792.1034" timestamp="1684578150282" />
+    <state width="1748" height="268" key="GridCell.Tab.0.left/0.25.1792.1035@0.25.1792.1035" timestamp="1684578321973" />
+    <state width="1748" height="268" key="GridCell.Tab.0.left/0.25.1792.1037@0.25.1792.1037" timestamp="1684578416178" />
+    <state width="1748" height="268" key="GridCell.Tab.0.right" timestamp="1684578416179">
+      <screen x="0" y="25" width="1792" height="1037" />
+    </state>
+    <state width="1748" height="268" key="GridCell.Tab.0.right/0.25.1792.1029@0.25.1792.1029" timestamp="1684498230733" />
+    <state width="1748" height="268" key="GridCell.Tab.0.right/0.25.1792.1030@0.25.1792.1030" timestamp="1684499642495" />
+    <state width="1748" height="268" key="GridCell.Tab.0.right/0.25.1792.1034@0.25.1792.1034" timestamp="1684578150291" />
+    <state width="1748" height="268" key="GridCell.Tab.0.right/0.25.1792.1035@0.25.1792.1035" timestamp="1684578321973" />
+    <state width="1748" height="268" key="GridCell.Tab.0.right/0.25.1792.1037@0.25.1792.1037" timestamp="1684578416179" />
+    <state x="405" y="160" key="SettingsEditor" timestamp="1684573871038">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state x="405" y="160" key="SettingsEditor/0.25.1792.1034@0.25.1792.1034" timestamp="1684573871038" />
+    <state x="561" y="246" key="search.everywhere.popup" timestamp="1684573517739">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state x="561" y="246" key="search.everywhere.popup/0.25.1792.1034@0.25.1792.1034" timestamp="1684573517739" />
+  </component>
+</project>
