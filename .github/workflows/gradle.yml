@@ -28,5 +28,15 @@ jobs:
       with:
         java-version: '11'
         distribution: 'temurin'
+    - name: Set up Chrome browser
+      uses: browser-actions/setup-chrome@v1
+      with:
+          options: |
+            --disable-dev-shm-usage
+            --ignore-ssl-errors=yes
+            --ignore-certificate-errors
+            --no-sandbox
+            --headless
+    - run: google-chrome-stable --version    
     - name: Build with Gradle
       run: gradle test
