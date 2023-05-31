@@ -9,6 +9,7 @@ public class GoogleTest extends BaseTest {
 
     @Test(priority = 1)
     public void titleTest() {
+        testCaseId = "3";
         String title = driver.getTitle();
         System.out.println("page title:" + title);
         Assert.assertEquals(title, "Google");
