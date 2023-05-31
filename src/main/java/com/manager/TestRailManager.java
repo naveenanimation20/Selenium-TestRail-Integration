@@ -10,7 +10,7 @@ public class TestRailManager {
     public static String TEST_RUN_ID = "1";
     public static String TEST_RAIL_USERNAME = "naveenanimation20@gmail.com";
     public static String TEST_RAIL_PASSWORD = "Selenium@12345";
-    public static String TEST_RAIL_ENGINE_URL = "https://naveetestautomation.testrail.io/";
+    public static String TEST_RAIL_ENGINE_URL = "https://naveenselenium.testrail.io/";
     public static int TEST_CASE_PASS_STATUS = 1;
     public static int TEST_CASE_FAIL_STATUS = 5;
 
